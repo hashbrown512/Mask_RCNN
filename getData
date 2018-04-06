@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+wget https://raw.githubusercontent.com/AakashSudhakar/2018-data-science-bowl/master/compressed_files/stage1_test.zip -c
+wget https://raw.githubusercontent.com/AakashSudhakar/2018-data-science-bowl/master/compressed_files/stage1_train.zip -c
+
+mkdir stage1_train stage1_test
+
+unzip stage1_train.zip -d stage1_train/
+unzip stage1_test.zip -d stage1_test/
+
