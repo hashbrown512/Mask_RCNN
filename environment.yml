@@ -1,4 +1,4 @@
-name: tensorflow_p36
+name: tfdsbowl
 channels:
   - conda-forge
   - defaults
